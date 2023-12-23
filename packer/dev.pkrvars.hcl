@@ -1,3 +1,3 @@
 project_name = "shopping"
 project_env = "dev"
-ami_id = "ami-0ee4f2271a4df2d7d"
+ami_id = "ami-079db87dc4c10ac91"
