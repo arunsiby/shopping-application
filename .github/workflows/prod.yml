@@ -29,7 +29,7 @@ jobs:
         working-directory: ./packer/
 
       - name: "Packer validate"
-        run: packer validate . -var-file="prod.pkrvars.hcl" .
+        run: packer validate  -var-file="prod.pkrvars.hcl" .
         working-directory: ./packer/
 
       - name: "Formating"
